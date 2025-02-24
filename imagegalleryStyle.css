@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body {
+    background-color: purple;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.taskbar{
+    text-align: center;
+    color:white;
+    padding: 10px; 
+ } 
+img{
+    height: 220px;
+    width:220px;
+}
+
+.Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.Container div{
+   
+    color:white;
+    width: 220px;
+    padding: 10px;
+    
+}
+.Container div:hover{
+color:green;
+}
+
